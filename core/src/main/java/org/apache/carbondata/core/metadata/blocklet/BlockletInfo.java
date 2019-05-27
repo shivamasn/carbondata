@@ -236,7 +236,7 @@ public class BlockletInfo implements Serializable, Writable {
         output.writeInt(getNumberOfRowsPerPage()[i]);
       }
     } else {
-      //for old store
+      //For old store
       output.writeShort(0);
     }
   }
